@@ -1,3 +1,3 @@
 # news-collector
 
-This application is collecting "Queen" related new from Guardian.
+This application is collecting "Queen" related news from Guardian.
