@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
             const html = response.data;
             const $ = cheerio.load(html);
 
-            $('a:contains("climate")', html).each(function () {
+            $('a:contains("queen")', html).each(function () {
                 const title = $(this).text();
                 const url = $(this).attr('href')
                 articles.push({
